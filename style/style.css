@@ -5,7 +5,8 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+        "wdth" 100;
+        
 }
 
 .banner {
@@ -16,21 +17,107 @@
     padding: 100px;
     gap: 64px;
 }
+
 .mini-title {
     color: #504d4d;
     font-size: 24px;
     font-weight: 600;
 }
 
-.title{
+.title {
     font-size: 56px;
     font-weight: 800;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 10px;
     background-color: #006A50;
     font-size: large;
     color: #ffff;
     padding: 17px 34px;
+}
 
+.second-title {
+    font-weight: 710;
+    font-size: 40px;
+
+}
+
+.second-section {
+    margin: 160px;
+}
+
+.skills-container {
+    display: flex;
+    margin: 160px;
+    gap: 24px;
+
+}
+
+.skill-1 {
+    padding: 100px 15px 97px 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+
+
+
+.skill-2 {
+    padding: 100px 50px 97px 32px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+}
+
+.skill-3 {
+    padding: 100px 32px 97px 32px;
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px;
+}
+
+.btn-extra-1 {
+    padding: 11px 20px;
+    background-color: #5490F5;
+    color: #ffff;
+    border-radius: 12px;
+    border: none;
+    font-size: large;
+}
+
+.btn-extra-2 {
+    padding: 11px 20px;
+    background-color: #09A15C;
+    color: #ffff;
+    border-radius: 12px;
+    border: none;
+    font-size: large;
+}
+.btn-extra-3 {
+    padding: 11px 20px;
+    background-color: rgba(255, 194, 57, 1);
+    color: #ffff;
+    border-radius: 12px;
+    border: none;
+    font-size: large;
+}
+.title-news{
+    margin: 160px;
+    
+}
+
+.news-section{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 24px;
+    border-radius: 24px;
+}
+.date-time, .news-discription{
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 744;
+    font-variant: inherit;
+    
 }
